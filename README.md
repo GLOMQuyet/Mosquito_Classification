@@ -86,9 +86,39 @@ the rest from other sources. We had a total of 442 images; 188 of aedes species,
 130 of anopheles species and 124 of culex species. Fig 2 displays some sample
 images of our dataset. We took help from some sources like  to label the data
 correctly.
-![](![image](https://github.com/GLOMQuyet/Mosquito_Classification/assets/85043585/ebcaf874-7a4d-472e-b61c-a2d3acf668e0)
+![Fig 2 displays some sample
+images of our dataset](https://github.com/GLOMQuyet/Mosquito_Classification/assets/85043585/ebcaf874-7a4d-472e-b61c-a2d3acf668e0)
 
 #### Characteristics of Aedes, Anopheles and Culex
+There are some properties associated with the mosquitoes by which one can
+recognize the mosquitoes and differentiate between them. Fig 3 shows example
+images of the three mosquito species: aedes, anopheles and culex. The characteristics of aedes, anopheles and culex are given below
+
+Aedes. Aedes mosquitoes can be identified differently as they possess black and
+white markings all over the body. These mosquitoes stay awake in the daytime in
+dark corners. Primarily female aedes bites humans and sucks blood so that they
+can lay eggs. This mosquito is the carrier for infectious diseases like dengue,
+chikungunya etc. These diseases are mediated to humans by the bites of an
+affected female aedes
+
+Anopheles. The body color of an anopheles mosquito’s body is brown or black.
+It consists of 3 body parts: the head, abdomen and thorax. The lower body of
+the vector points to the top while they are resting. It lays eggs after sucking
+blood. Even though it can live some weeks to a month, it is able to produce
+eggs in that time span. The anopheles mosquito is considered throughout the
+world for bearing one of the most infectious diseases called malaria. It is also
+responsible for heartworm
+
+Culex. Culex appears to be a black mosquito with some white stripes on some
+body parts. Male and female culex, both of them, live on honey and herb liquids.
+When a female culex is willing to produce eggs, it feeds on the blood of humans,
+other beasts and also birds. It is compulsory for the female culex to have blood
+so that they can reproduce. Though the female mosquitoes bite only the birds
+at some point, they also attack the mammals sometimes. This culex mosquito is
+responsible for spreading the Zika virus. It is also found in charge of spreading
+west nile virus, encephalitis and filariasis
+
+![Fig. 3. Example Images of Aedes, Anopheles and Culex](https://github.com/GLOMQuyet/Mosquito_Classification/assets/85043585/7375bf24-bf38-463c-80f4-f67df90819d4)
 
 
 #### Data processing and data augmentation
