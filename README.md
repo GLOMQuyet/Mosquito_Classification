@@ -4,7 +4,7 @@
 
 This repository is inspired by https://github.com/Hawkeye-FineGrained/Hawkeye. Paper for this github https://arxiv.org/pdf/2310.09600.pdf. I am very grateful to authors Jiabei He, Yang Shen, Xiu-Shen We, Ye Wu for creating a common framework that can solve the Fine-Grained Image Recognition problem.
 
-At the same time, I am also very grateful to authors Mehenika Akter, Mohammad Shahadat Hossain, Tawsin Uddin Ahmed, Karl Andersson of the paper ![Mosquito Classification using Convolutional
+At the same time, I am also very grateful to authors Mehenika Akter, Mohammad Shahadat Hossain, Tawsin Uddin Ahmed, Karl Andersson of the paper [Mosquito Classification using Convolutional
 Neural Network with Data Augmentation](https://link.springer.com/chapter/10.1007/978-3-030-68154-8_74) provided me with the data to use for this project
 
 # Hawkeye
