@@ -1,0 +1,38 @@
+experiment:
+  name: PTN 1
+  log_dir: results/ProtoTreeNet
+  cuda: [0]
+  seed: 42
+dataset:
+  name: Mosquito
+  root_dir: data/dataset_mosquito
+  meta_dir: metadata/dataset_mosquito
+  batch_size: 24
+  num_workers: 4
+  transformer:
+    image_size: 224
+    resize_size: 300
+model:
+  name: ProtoTreeNet
+  num_classes: 3
+  height: 9         # Height of the ProtoTree.
+  W1: 1             # Width of the prototype. Correct behaviour of the model with W1 != 1 is not guaranteed.
+  H1: 1             # Height of the prototype. Correct behaviour of the model with H1 != 1 is not guaranteed.
+  num_features: 300 # Depth of the prototype and therefore also depth of convolutional output.
+  backbone:
+    name: resnet50
+train:
+  epoch: 100
+  save_frequence: 50
+  optimizer:
+    name: AdamW
+    lr: 0.001
+    weight_decay: 0.0
+  scheduler:
+    name: ''
+    T_max: 100
+    warmup_epochs: 5
+    lr_warmup_decay: 0.01
+  criterion:
+    name: CrossEntropyLoss
+

@@ -1,0 +1,16 @@
+experiment:
+  name: API_res50 1
+  cuda: [0]
+dataset:
+  name: 
+  root_dir: data/dataset_mosquito
+  meta_dir: metadata/dataset_mosquito
+  batch_size: 24
+  num_workers: 4
+  transformer:
+    resize_size: 300
+    image_size: 224
+model:
+  name: APINet
+  num_classes: 3
+  load: results/APINet/API_res50 1/best_model.pth
