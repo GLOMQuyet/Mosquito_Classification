@@ -78,22 +78,22 @@ pip install -r requirements.txt
 ```
 
 ####  Data Acquisition
-As there is no standard dataset on mosquitoes available online, we had to construct the dataset from different online sources. We collected mosquito images
+As there is no standard dataset on mosquitoes available online, we had to construct the dataset from different online sources. We collected mosquito images
 from websites like Pixabay , Getty Images , Shutterstock Images , iStock
 etc. We collected approximately 40 images from Pixabay, 120 images from
 Getty Images, 90 images from Shutterstock Images, 60 images from iStock and
 the rest from other sources. We had a total of 442 images; 188 of aedes species,
-130 of anopheles species and 124 of culex species. Fig 2 displays some sample
+130 of anopheles species and 124 of culex species. Image displays some sample
 images of our dataset. We took help from some sources like  to label the data
 correctly.
 
-![Fig 2](https://github.com/GLOMQuyet/Mosquito_Classification/assets/85043585/45817586-a86a-4c9c-8105-99b23de3571b)
+![Fig 2]()
 
 
 #### Characteristics of Aedes, Anopheles and Culex
 There are some properties associated with the mosquitoes by which one can
-recognize the mosquitoes and differentiate between them. Fig 3 shows example
-images of the three mosquito species: aedes, anopheles and culex. The characteristics of aedes, anopheles and culex are given below
+recognize the mosquitoes and differentiate between them. Image shows example
+images of the three mosquito species: aedes, anopheles and culex. The characteristics of aedes, anopheles and culex are given below
 
 Aedes. Aedes mosquitoes can be identified differently as they possess black and
 white markings all over the body. These mosquitoes stay awake in the daytime in
