@@ -87,7 +87,7 @@ the rest from other sources. We had a total of 442 images; 188 of aedes species,
 images of our dataset. We took help from some sources like  to label the data
 correctly.
 
-![Fig 2]()
+![sample](resources/sample.png)
 
 
 #### Characteristics of Aedes, Anopheles and Culex
@@ -119,7 +119,7 @@ at some point, they also attack the mammals sometimes. This culex mosquito is
 responsible for spreading the Zika virus. It is also found in charge of spreading
 west nile virus, encephalitis and filariasis
 
-![Fig. 3](https://github.com/GLOMQuyet/Mosquito_Classification/assets/85043585/ab46b452-9841-4cb3-b19e-87718b7f2c94)
+![mosquito](resources/mosquito.png)
 
 
 #### Data processing and data augmentation
