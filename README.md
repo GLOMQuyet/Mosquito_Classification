@@ -2,8 +2,10 @@
 
 # Author's thanks
 
-This repository is inspired by https://github.com/Hawkeye-FineGrained/Hawkeye. Paper for this github https://arxiv.org/pdf/2310.09600.pdf. I am very grateful to authors Jiabei He, Yang Shen, Xiu-Shen We, Ye Wu for creating a common framework that can solve the Fine-Grained Image problem.
-Recognition
+This repository is inspired by https://github.com/Hawkeye-FineGrained/Hawkeye. Paper for this github https://arxiv.org/pdf/2310.09600.pdf. I am very grateful to authors Jiabei He, Yang Shen, Xiu-Shen We, Ye Wu for creating a common framework that can solve the Fine-Grained Image Recognition problem.
+
+At the same time, I am also very grateful to authors Mehenika Akter, Mohammad Shahadat Hossain, Tawsin Uddin Ahmed, Karl Andersson of the paper ![Mosquito Classification using Convolutional
+Neural Network with Data Augmentation](https://link.springer.com/chapter/10.1007/978-3-030-68154-8_74) provided me with the data to use for this project
 
 # Hawkeye
 
@@ -74,6 +76,20 @@ source .env/bin/activate
 ```
 pip install -r requirements.txt
 ```
+
+####  Data Acquisition
+As there is no standard dataset on mosquitoes available online, we had to construct the dataset from different online sources. We collected mosquito images
+from websites like Pixabay , Getty Images , Shutterstock Images , iStock
+etc. We collected approximately 40 images from Pixabay, 120 images from
+Getty Images, 90 images from Shutterstock Images, 60 images from iStock and
+the rest from other sources. We had a total of 442 images; 188 of aedes species,
+130 of anopheles species and 124 of culex species. Fig 2 displays some sample
+images of our dataset. We took help from some sources like  to label the data
+correctly.
+![](![image](https://github.com/GLOMQuyet/Mosquito_Classification/assets/85043585/ebcaf874-7a4d-472e-b61c-a2d3acf668e0)
+
+#### Characteristics of Aedes, Anopheles and Culex
+
 
 #### Data processing and data augmentation
 
