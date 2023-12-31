@@ -4,20 +4,20 @@ experiment:
   cuda: [0]
   seed: 0
 dataset:
-  name: Mosquito
-  root_dir: data/dataset_mosquito
-  meta_dir: metadata/dataset_mosquito
-  batch_size: 24
+  name: web_bird
+  root_dir: data/web-bird
+  meta_dir: metadata/web_bird
+  batch_size: 8
   num_workers: 0
   transformer:
     image_size: 224
-    resize_size: 300
+    resize_size: 256
 model:
   name: PeerLearningNet
   base_model:         # PeerLearningNet contains two identical models. Here it uses a BilinearCNN.
     name: BCNN
     stage: 2
-    num_classes: 3
+    num_classes: 200
   drop_rate: 0.35     # The maximum drop rate, `\xi` in Eqn.(2).
   T_k: 10             # The number of epochs after which d(T) is no longer updated, `T_k` in Eqn.(2).
   load: results/PeerLearning/PL_BCNN 1/best_model.pth
