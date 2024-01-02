@@ -59,8 +59,8 @@ class DatasetSplitter:
         num_train = int(len(self.image_paths) * self.train_ratio)
         train_images = self.image_paths[:num_train]
         val_images = self.image_paths[num_train:]
-        self.write_to_file("metadata\dataset_mosquito\\"+self.train_file, train_images)
-        self.write_to_file("metadata\dataset_mosquito\\"+self.val_file, val_images)
+        self.write_to_file("metadata/dataset_mosquito/"+self.train_file, train_images)
+        self.write_to_file("metadata/dataset_mosquito/"+self.val_file, val_images)
 
     def write_to_file(self, file_name, images):
         with open(file_name, 'w') as file:
@@ -75,8 +75,8 @@ class DatasetSplitter:
         self.split_dataset()
 
 if __name__ == '__main__':
-    create_folder('metadata\dataset_mosquito')
-    dataset_dir = 'data\dataset_mosquito'  # Replace with your actual path
+    create_folder('metadata/dataset_mosquito')
+    dataset_dir = 'data/dataset_mosquito'  # Replace with your actual path
     rename_images_in_folder(dataset_dir)
     splitter = DatasetSplitter(dataset_dir)
     splitter.run()
