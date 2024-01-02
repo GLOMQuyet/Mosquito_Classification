@@ -127,11 +127,11 @@ west nile virus, encephalitis and filariasis
 > First, decompress the data. If you use Windows, just go to the `data/dataset.zip` file to decompress them. From there we will have the `data/dataset` directory.
 If you use linux, you can use the following command:
 ```
-!!unzip data/dataset.zip -d ./data
+!unzip data/dataset.zip -d ./data
 ```
 > Second (optional) for data augmentation case command:
 ```
-!python dataset/metadata.py
+python dataset/data_augmentation.py
 ```
 They will create a folder named `data/dataset_mosquito`
 
@@ -139,7 +139,7 @@ We provide the meta-data file of the datasets in `metadata/`, and the train list
 
 > Finally the metadata file of the datasets is in the form `metadata/`, and the training list and val list are also provided according to the formal splits of the dataset. There is no need to modify the extracted folder of the dataset. The following is the code that creates the metadata file and an example of the directory structure of the two data sets.
 ```
-python dataset\metada.py
+python dataset/metadata.py
 ```
 ```
 data
