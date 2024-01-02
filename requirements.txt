@@ -34,11 +34,11 @@ sympy==1.12
 tensorboardX==2.6.2.2
 threadpoolctl==3.2.0
 tifffile==2023.12.9
-torch==2.1.2+cu121
-torchaudio==2.1.2+cu121
-torchvision==0.16.2+cu121
 tqdm==4.66.1
 typing_extensions==4.4.0
 tzdata==2023.3
 urllib3==1.26.13
 yacs==0.1.8
+torch==2.1.2+cu121
+torchaudio==2.1.2+cu121
+torchvision==0.16.2+cu121
