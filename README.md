@@ -131,7 +131,7 @@ If you use linux, you can use the following command:
 ```
 > Second (optional) for data augmentation case command:
 ```
-python dataset/data_augmentation.py
+!python dataset/metadata.py
 ```
 They will create a folder named `data/dataset_mosquito`
 
