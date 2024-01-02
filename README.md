@@ -128,6 +128,7 @@ west nile virus, encephalitis and filariasis
 If you use linux, you can use the following command:
 ```
 !unzip data/dataset.zip
+!mv 'dataset/' 'data/'
 ```
 > Second (optional) for data augmentation case command:
 ```
@@ -228,17 +229,3 @@ You can modify `test.py` and `test.yaml` to test other models.
 ## License
 
 This project is released under the [MIT license](./LICENSE).
-
-## Contacts
-
-If you have any questions about our work, please do not hesitate to contact us by emails.
-
-Xiu-Shen Wei: [weixs.gm@gmail.com](mailto:weixs.gm@gmail.com)
-
-Jiabei He: [hejb@njust.edu.cn](mailto:hejb@njust.edu.cn)
-
-Yang Shen: [shenyang_98@njust.edu.cn](mailto:shenyang_98@njust.edu.cn)
-
-## Acknowledgements
-
-This project is supported by National Key R&D Program of China (2021YFA1001100), National Natural Science Foundation of China under Grant (62272231), Natural Science Foundation of Jiangsu Province of China under Grant (BK20210340), and the Fundamental Research Funds for the Central Universities (No. 30920041111, No. NJ2022028).
