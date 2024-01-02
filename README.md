@@ -127,7 +127,7 @@ west nile virus, encephalitis and filariasis
 > First, decompress the data. If you use Windows, just go to the `data/dataset.zip` file to decompress them. From there we will have the `data/dataset` directory.
 If you use linux, you can use the following command:
 ```
-!!unzip data/dataset.zip -d ./data/dataset
+!!unzip data/dataset.zip -d ./data
 ```
 > Second (optional) for data augmentation case command:
 ```
